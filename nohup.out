@@ -1,0 +1,263 @@
+System Info: Java 11 (OpenJDK 64-Bit Server VM 11.0.5+10-post-Ubuntu-0ubuntu1.118.04) Host:  Linux 4.15.0-72-generic (amd64)
+Loading libraries, please wait...
+2019-12-22 02:11:51,355 main WARN Advanced terminal features are not available in this environment
+[02:12:01 INFO]: Starting minecraft server version 1.14.4
+[02:12:01 INFO]: Loading properties
+[02:12:01 ERROR]: [TerminalConsole] Failed to read console input
+java.io.IOException: Bad file descriptor
+	at java.io.FileInputStream.readBytes(Native Method) ~[?:?]
+	at java.io.FileInputStream.read(FileInputStream.java:279) ~[?:?]
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:290) ~[?:?]
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:351) ~[?:?]
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:284) ~[?:?]
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:326) ~[?:?]
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:178) ~[?:?]
+	at java.io.InputStreamReader.read(InputStreamReader.java:185) ~[?:?]
+	at java.io.BufferedReader.fill(BufferedReader.java:161) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:326) ~[?:?]
+	at java.io.BufferedReader.readLine(BufferedReader.java:392) ~[?:?]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.readCommands(SimpleTerminalConsole.java:180) ~[patched_1.14.4.jar:git-Paper-237]
+	at net.minecrell.terminalconsole.SimpleTerminalConsole.start(SimpleTerminalConsole.java:143) ~[patched_1.14.4.jar:git-Paper-237]
+	at net.minecraft.server.v1_14_R1.DedicatedServer$2.run(DedicatedServer.java:89) ~[patched_1.14.4.jar:git-Paper-237]
+[02:12:01 INFO]: This server is running Paper version git-Paper-237 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[02:12:01 INFO]: Debug logging is disabled
+[02:12:01 INFO]: Server Ping Player Sample Count: 12
+[02:12:01 INFO]: Using 4 threads for Netty based IO
+[02:12:01 INFO]: Default game type: SURVIVAL
+[02:12:01 INFO]: Generating keypair
+[02:12:02 INFO]: Starting Minecraft server on *:25565
+[02:12:02 INFO]: Using epoll channel type
+[02:12:03 INFO]: Server permissions file permissions.yml is empty, ignoring it
+[02:12:03 WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:12:03 WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:12:03 WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:12:03 WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:12:03 INFO]: Preparing level "world"
+[02:12:03 INFO]: Reloading ResourceManager: Default, bukkit
+[02:12:25 INFO]: Loaded 6 recipes
+[02:12:26 INFO]: -------- World Settings For [world] --------
+[02:12:26 INFO]: Cactus Growth Modifier: 100%
+[02:12:26 INFO]: Cane Growth Modifier: 100%
+[02:12:26 INFO]: Melon Growth Modifier: 100%
+[02:12:26 INFO]: Mushroom Growth Modifier: 100%
+[02:12:26 INFO]: Pumpkin Growth Modifier: 100%
+[02:12:26 INFO]: Sapling Growth Modifier: 100%
+[02:12:26 INFO]: Beetroot Growth Modifier: 100%
+[02:12:26 INFO]: Carrot Growth Modifier: 100%
+[02:12:26 INFO]: Potato Growth Modifier: 100%
+[02:12:26 INFO]: Wheat Growth Modifier: 100%
+[02:12:26 INFO]: NetherWart Growth Modifier: 100%
+[02:12:26 INFO]: Vine Growth Modifier: 100%
+[02:12:26 INFO]: Cocoa Growth Modifier: 100%
+[02:12:26 INFO]: Bamboo Growth Modifier: 100%
+[02:12:26 INFO]: SweetBerry Growth Modifier: 100%
+[02:12:26 INFO]: Kelp Growth Modifier: 100%
+[02:12:26 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:12:26 INFO]: Experience Merge Radius: 3.0
+[02:12:26 INFO]: Mob Spawn Range: 8
+[02:12:26 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:12:26 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:12:26 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[02:12:26 INFO]: Max TNT Explosions: 100
+[02:12:26 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:12:26 INFO]: View Distance: 10
+[02:12:26 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:12:26 INFO]: Item Merge Radius: 2.5
+[02:12:26 INFO]: Item Despawn Rate: 6000
+[02:12:26 INFO]: Arrow Despawn Rate: 1200
+[02:12:26 INFO]: Zombie Aggressive Towards Villager: true
+[02:12:26 INFO]: Nerfing mobs spawned from spawners: false
+[02:12:26 INFO]: -------- World Settings For [world_nether] --------
+[02:12:26 INFO]: Cactus Growth Modifier: 100%
+[02:12:26 INFO]: Cane Growth Modifier: 100%
+[02:12:26 INFO]: Melon Growth Modifier: 100%
+[02:12:26 INFO]: Mushroom Growth Modifier: 100%
+[02:12:26 INFO]: Pumpkin Growth Modifier: 100%
+[02:12:26 INFO]: Sapling Growth Modifier: 100%
+[02:12:26 INFO]: Beetroot Growth Modifier: 100%
+[02:12:26 INFO]: Carrot Growth Modifier: 100%
+[02:12:26 INFO]: Potato Growth Modifier: 100%
+[02:12:26 INFO]: Wheat Growth Modifier: 100%
+[02:12:26 INFO]: NetherWart Growth Modifier: 100%
+[02:12:26 INFO]: Vine Growth Modifier: 100%
+[02:12:26 INFO]: Cocoa Growth Modifier: 100%
+[02:12:26 INFO]: Bamboo Growth Modifier: 100%
+[02:12:26 INFO]: SweetBerry Growth Modifier: 100%
+[02:12:26 INFO]: Kelp Growth Modifier: 100%
+[02:12:26 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:12:26 INFO]: Experience Merge Radius: 3.0
+[02:12:26 INFO]: Mob Spawn Range: 8
+[02:12:26 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:12:26 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:12:26 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[02:12:26 INFO]: Max TNT Explosions: 100
+[02:12:26 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:12:26 INFO]: View Distance: 10
+[02:12:26 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:12:26 INFO]: Item Merge Radius: 2.5
+[02:12:26 INFO]: Item Despawn Rate: 6000
+[02:12:26 INFO]: Arrow Despawn Rate: 1200
+[02:12:26 INFO]: Zombie Aggressive Towards Villager: true
+[02:12:26 INFO]: Nerfing mobs spawned from spawners: false
+[02:12:26 INFO]: -------- World Settings For [world_the_end] --------
+[02:12:26 INFO]: Cactus Growth Modifier: 100%
+[02:12:26 INFO]: Cane Growth Modifier: 100%
+[02:12:26 INFO]: Melon Growth Modifier: 100%
+[02:12:26 INFO]: Mushroom Growth Modifier: 100%
+[02:12:26 INFO]: Pumpkin Growth Modifier: 100%
+[02:12:26 INFO]: Sapling Growth Modifier: 100%
+[02:12:26 INFO]: Beetroot Growth Modifier: 100%
+[02:12:26 INFO]: Carrot Growth Modifier: 100%
+[02:12:26 INFO]: Potato Growth Modifier: 100%
+[02:12:26 INFO]: Wheat Growth Modifier: 100%
+[02:12:26 INFO]: NetherWart Growth Modifier: 100%
+[02:12:26 INFO]: Vine Growth Modifier: 100%
+[02:12:26 INFO]: Cocoa Growth Modifier: 100%
+[02:12:26 INFO]: Bamboo Growth Modifier: 100%
+[02:12:26 INFO]: SweetBerry Growth Modifier: 100%
+[02:12:26 INFO]: Kelp Growth Modifier: 100%
+[02:12:26 INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[02:12:26 INFO]: Experience Merge Radius: 3.0
+[02:12:26 INFO]: Mob Spawn Range: 8
+[02:12:26 INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[02:12:26 INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[02:12:26 INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[02:12:26 INFO]: Max TNT Explosions: 100
+[02:12:26 INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[02:12:26 INFO]: View Distance: 10
+[02:12:26 INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[02:12:26 INFO]: Item Merge Radius: 2.5
+[02:12:26 INFO]: Item Despawn Rate: 6000
+[02:12:26 INFO]: Arrow Despawn Rate: 1200
+[02:12:26 INFO]: Zombie Aggressive Towards Villager: true
+[02:12:26 INFO]: Nerfing mobs spawned from spawners: false
+[02:12:26 INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[02:12:27 INFO]: Preparing spawn area: 0%
+[02:12:27 INFO]: Preparing spawn area: 0%
+[02:12:29 INFO]: Preparing spawn area: 0%
+[02:12:29 INFO]: Preparing spawn area: 0%
+[02:12:29 INFO]: Preparing spawn area: 0%
+[02:12:29 INFO]: Preparing spawn area: 1%
+[02:12:29 INFO]: Preparing spawn area: 9%
+[02:12:30 INFO]: Preparing spawn area: 29%
+[02:12:30 INFO]: Preparing spawn area: 39%
+[02:12:31 INFO]: Preparing spawn area: 56%
+[02:12:31 INFO]: Preparing spawn area: 80%
+[02:12:32 INFO]: Preparing spawn area: 93%
+[02:12:32 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:37 INFO]: Preparing spawn area: 100%
+[02:12:38 INFO]: Preparing spawn area: 100%
+[02:12:38 INFO]: Preparing spawn area: 100%
+[02:12:39 INFO]: Preparing spawn area: 100%
+[02:12:40 INFO]: Preparing spawn area: 100%
+[02:12:40 INFO]: Preparing spawn area: 100%
+[02:12:40 INFO]: Preparing spawn area: 100%
+[02:12:41 INFO]: Preparing spawn area: 100%
+[02:12:41 INFO]: Preparing spawn area: 100%
+[02:12:42 INFO]: Preparing spawn area: 100%
+[02:12:42 INFO]: Preparing spawn area: 100%
+[02:12:43 INFO]: Preparing spawn area: 100%
+[02:12:43 INFO]: Preparing spawn area: 100%
+[02:12:44 INFO]: Preparing spawn area: 100%
+[02:12:44 INFO]: Preparing spawn area: 100%
+[02:12:45 INFO]: Preparing spawn area: 100%
+[02:12:45 INFO]: Preparing spawn area: 100%
+[02:12:46 INFO]: Preparing spawn area: 100%
+[02:12:46 INFO]: Loaded 441 spawn chunks for world world
+[02:12:46 INFO]: Time elapsed: 19997 ms
+[02:12:46 INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[02:12:47 INFO]: Preparing spawn area: 0%
+[02:12:47 INFO]: Preparing spawn area: 1%
+[02:12:48 INFO]: Preparing spawn area: 9%
+[02:12:48 INFO]: Preparing spawn area: 17%
+[02:12:48 INFO]: Preparing spawn area: 22%
+[02:12:49 INFO]: Preparing spawn area: 29%
+[02:12:49 INFO]: Preparing spawn area: 47%
+[02:12:50 INFO]: Preparing spawn area: 62%
+[02:12:50 INFO]: Preparing spawn area: 86%
+[02:12:51 INFO]: Preparing spawn area: 100%
+[02:12:51 INFO]: Preparing spawn area: 100%
+[02:12:52 INFO]: Preparing spawn area: 100%
+[02:12:52 INFO]: Preparing spawn area: 100%
+[02:12:53 INFO]: Preparing spawn area: 100%
+[02:12:53 INFO]: Preparing spawn area: 100%
+[02:12:54 INFO]: Preparing spawn area: 100%
+[02:12:54 INFO]: Preparing spawn area: 100%
+[02:12:55 INFO]: Preparing spawn area: 100%
+[02:12:55 INFO]: Loaded 441 spawn chunks for world world_nether
+[02:12:55 INFO]: Time elapsed: 8964 ms
+[02:12:55 INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[02:12:56 INFO]: Preparing spawn area: 0%
+[02:12:56 INFO]: Preparing spawn area: 100%
+[02:12:56 INFO]: Preparing spawn area: 100%
+[02:12:57 INFO]: Preparing spawn area: 100%
+[02:12:57 INFO]: Preparing spawn area: 100%
+[02:12:58 INFO]: Loaded 441 spawn chunks for world world_the_end
+[02:12:58 INFO]: Time elapsed: 2352 ms
+[02:12:58 INFO]: Done (55.110s)! For help, type "help"
+[02:12:58 INFO]: Timings Reset
+[02:13:03 WARN]: Can't keep up! Is the server overloaded? Running 5270ms or 105 ticks behind
+[03:21:25 INFO]: UUID of player Wello6143 is 21ecd154-c21d-32ba-8b2b-f4715700c088
+[03:21:26 INFO]: Wello6143[/116.108.78.79:57374] logged in with entity id 264 at ([world]339.38753555939167, 68.0, -110.11147534336914)
+[03:21:45 INFO]: Wello6143 issued server command: /gamemode creative
+[03:21:45 INFO]: [Wello6143: Set own game mode to Creative Mode]
+[03:22:57 INFO]: Wello6143 issued server command: /summon minecraft:tnt
+[03:22:57 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:01 INFO]: Wello6143 issued server command: /summon minecraft:tnt
+[03:23:01 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:03 INFO]: Wello6143 issued server command: /summon minecraft:tnt
+[03:23:03 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:27 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~ 64
+[03:23:40 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~
+[03:23:40 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:40 INFO]: Wello6143 has made the advancement [Stone Age]
+[03:23:42 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~
+[03:23:42 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:43 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~
+[03:23:43 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:48 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~
+[03:23:48 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:49 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~
+[03:23:49 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:49 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~
+[03:23:49 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:23:51 INFO]: Wello6143 issued server command: /summon minecraft:tnt ~ ~ ~
+[03:23:51 INFO]: [Wello6143: Summoned new Primed TNT]
+[03:24:48 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 0 0 0 minecraft:tnt
+[03:25:02 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 355 10 23 minecraft:tnt
+[03:25:10 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 300 10 23 minecraft:tnt
+[03:25:16 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 115 10 23 minecraft:tnt
+[03:25:51 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 268 85 3
+[03:25:57 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 268 85 3 minecraft:tnt
+[03:26:04 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 212 85 3 minecraft:tnt
+[03:26:19 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 295 85 3 minecraft:tnt
+[03:26:57 INFO]: Wello6143 issued server command: /fill ~ ~ ~ 330 69 4 minecraft:tnt
+[03:26:57 INFO]: [Wello6143: Successfully filled 4305 blocks]
+[03:27:30 INFO]: Wello6143 has made the advancement [Monster Hunter]
+[03:27:35 WARN]: Can't keep up! Is the server overloaded? Running 5009ms or 100 ticks behind
+[03:28:14 WARN]: Can't keep up! Is the server overloaded? Running 8270ms or 165 ticks behind
+[03:28:46 INFO]: Wello6143 issued server command: /stop
+[03:28:46 INFO]: [Wello6143: Stopping the server]
+[03:28:46 INFO]: Stopping server
+[03:28:46 INFO]: Saving players
+[03:28:46 INFO]: Wello6143 lost connection: Server closed
+[03:28:46 INFO]: Wello6143 left the game
+[03:28:46 INFO]: Saving worlds
+[03:28:46 INFO]: Saving chunks for level 'world'/minecraft:overworld
+[03:28:48 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:28:48 INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[03:28:48 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:28:48 INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[03:28:48 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[03:28:48 INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:28:48 INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:28:48 INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
