@@ -188,3 +188,55 @@
 [15:25:05] [Server thread/INFO]: [Wello6143: Gamerule keepInventory is now set to: true]
 [15:25:30] [Server thread/INFO]: Wello6143 lost connection: Disconnected
 [15:25:30] [Server thread/INFO]: Wello6143 left the game
+[15:43:28] [User Authenticator #2/INFO]: UUID of player HarryCoder is 230d2cdb-5b86-3ae0-9354-7b29b6f711bf
+[15:43:28] [Server thread/INFO]: HarryCoder[/14.182.197.116:50835] logged in with entity id 485 at ([world]-69.5, 66.0, -231.5)
+[15:43:56] [Async Chat Thread - #0/INFO]: <HarryCoder> hey there
+[15:44:12] [User Authenticator #2/INFO]: UUID of player Wello6143 is 21ecd154-c21d-32ba-8b2b-f4715700c088
+[15:44:12] [Server thread/INFO]: Wello6143[/116.108.78.79:36056] logged in with entity id 539 at ([world]-113.33605120698928, 68.0, -140.2355544566143)
+[15:44:28] [Server thread/INFO]: Wello6143 issued server command: /tp
+[15:44:33] [Server thread/INFO]: Wello6143 issued server command: /tp HarryCoder Wello6143
+[15:44:33] [Server thread/INFO]: [Wello6143: Teleported HarryCoder to Wello6143]
+[15:44:55] [Async Chat Thread - #0/INFO]: <HarryCoder> how is my skin
+[15:45:00] [Async Chat Thread - #0/INFO]: <Wello6143> ur trap
+[15:45:09] [Async Chat Thread - #0/INFO]: <HarryCoder> i cant fly. im survival
+[15:45:16] [Async Chat Thread - #0/INFO]: <HarryCoder> pls set me to op
+[15:45:20] [Async Chat Thread - #0/INFO]: <Wello6143> let's move to somewhere that mroe greeeeeny
+[15:45:47] [Server thread/INFO]: Wello6143 issued server command: /gamemode survival
+[15:45:47] [Server thread/INFO]: [Wello6143: Set own game mode to Survival Mode]
+[15:45:51] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
+[15:45:51] [Server thread/INFO]: Wello6143 fell out of the world
+[15:45:51] [Server thread/INFO]: [Wello6143: Killed Wello6143]
+[15:46:07] [Server thread/INFO]: Wello6143 issued server command: /tim
+[15:46:12] [Server thread/INFO]: Wello6143 issued server command: /time set
+[15:46:16] [Server thread/INFO]: Wello6143 issued server command: /time set day
+[15:46:16] [Server thread/INFO]: [Wello6143: Set the time to 1000]
+[15:47:09] [Server thread/INFO]: HarryCoder lost connection: Disconnected
+[15:47:09] [Server thread/INFO]: HarryCoder left the game
+[15:47:26] [User Authenticator #3/INFO]: UUID of player HarryCoder is 230d2cdb-5b86-3ae0-9354-7b29b6f711bf
+[15:47:26] [Server thread/INFO]: HarryCoder[/14.182.197.116:50848] logged in with entity id 957 at ([world]40.14734340972122, 64.00301626150905, -126.9734912105874)
+[15:47:40] [Server thread/INFO]: Wello6143 issued server command: /gamemode creative
+[15:47:40] [Server thread/INFO]: [Wello6143: Set own game mode to Creative Mode]
+[15:47:46] [Server thread/INFO]: Wello6143 issued server command: /tp 0 100 0
+[15:47:46] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to 0.5, 100.0, 0.5]
+[15:47:52] [Server thread/INFO]: HarryCoder lost connection: Disconnected
+[15:47:52] [Server thread/INFO]: HarryCoder left the game
+[15:48:35] [Server thread/INFO]: Wello6143 issued server command: /setworldspawn
+[15:48:35] [Server thread/INFO]: [Wello6143: Set the world spawn point to 333, 69, -111]
+[15:48:41] [Server thread/INFO]: Wello6143 issued server command: /kill @a
+[15:48:41] [Server thread/INFO]: Wello6143 fell out of the world
+[15:48:41] [Server thread/INFO]: [Wello6143: Killed Wello6143]
+[15:49:56] [Server thread/INFO]: Wello6143 lost connection: Disconnected
+[15:49:56] [Server thread/INFO]: Wello6143 left the game
+[15:53:31] [Server thread/INFO]: Stopping the server
+[15:53:31] [Server thread/INFO]: Stopping server
+[15:53:31] [Server thread/INFO]: Saving players
+[15:53:31] [Server thread/INFO]: Saving worlds
+[15:53:31] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[15:53:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:53:31] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[15:53:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:53:31] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[15:53:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:53:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:53:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:53:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
