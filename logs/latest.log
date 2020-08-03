@@ -1,410 +1,164 @@
-[17:41:47] [Server thread/INFO]: Starting minecraft server version 1.14.4
-[17:41:47] [Server thread/INFO]: Loading properties
-[17:41:47] [Server thread/INFO]: This server is running Paper version git-Paper-243 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
-[17:41:47] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[17:41:47] [Server thread/INFO]: Using 4 threads for Netty based IO
-[17:41:47] [Server thread/INFO]: Debug logging is disabled
-[17:41:47] [Server thread/INFO]: Default game type: SURVIVAL
-[17:41:47] [Server thread/INFO]: Generating keypair
-[17:41:48] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:41:48] [Server thread/INFO]: Using epoll channel type
-[17:41:48] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:41:48] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:41:48] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:41:48] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:41:48] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:41:48] [Server thread/INFO]: Preparing level "world"
-[17:41:48] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
-[17:42:03] [Server thread/INFO]: Loaded 6 recipes
-[17:42:03] [Server thread/INFO]: -------- World Settings For [world] --------
-[17:42:03] [Server thread/INFO]: Max TNT Explosions: 100
-[17:42:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:42:03] [Server thread/INFO]: Mob Spawn Range: 8
-[17:42:03] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:42:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:42:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:42:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:42:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:42:03] [Server thread/INFO]: View Distance: 10
-[17:42:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:42:03] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:42:03] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:42:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:42:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:42:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:42:03] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[17:42:03] [Server thread/INFO]: Max TNT Explosions: 100
-[17:42:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:42:03] [Server thread/INFO]: Mob Spawn Range: 8
-[17:42:03] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:42:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:42:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:42:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:42:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:42:03] [Server thread/INFO]: View Distance: 10
-[17:42:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:42:03] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:42:03] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:42:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:42:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:42:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:42:03] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[17:42:03] [Server thread/INFO]: Max TNT Explosions: 100
-[17:42:03] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[17:42:03] [Server thread/INFO]: Mob Spawn Range: 8
-[17:42:03] [Server thread/INFO]: Experience Merge Radius: 3.0
-[17:42:03] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Cane Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Melon Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Potato Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Vine Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[17:42:03] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
-[17:42:03] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[17:42:03] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
-[17:42:03] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
-[17:42:03] [Server thread/INFO]: View Distance: 10
-[17:42:03] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[17:42:03] [Server thread/INFO]: Item Merge Radius: 2.5
-[17:42:03] [Server thread/INFO]: Item Despawn Rate: 6000
-[17:42:03] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[17:42:03] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[17:42:03] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[17:42:03] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
-[17:42:03] [Server thread/INFO]: Preparing spawn area: 0%
-[17:42:03] [Server thread/INFO]: Preparing spawn area: 12%
-[17:42:04] [Server thread/INFO]: Preparing spawn area: 48%
-[17:42:04] [Server thread/INFO]: Preparing spawn area: 100%
-[17:42:05] [Server thread/INFO]: Loaded 441 spawn chunks for world world
-[17:42:05] [Server thread/INFO]: Time elapsed: 1913 ms
-[17:42:05] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
-[17:42:05] [Server thread/INFO]: Preparing spawn area: 0%
-[17:42:05] [Server thread/INFO]: Preparing spawn area: 100%
-[17:42:06] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[17:42:06] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[17:42:07] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[17:42:07] [Server-Worker-2/INFO]: Preparing spawn area: 100%
-[17:42:08] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
-[17:42:08] [Server thread/INFO]: Time elapsed: 2983 ms
-[17:42:08] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
-[17:42:08] [Server thread/INFO]: Preparing spawn area: 0%
-[17:42:08] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[17:42:09] [Server-Worker-1/INFO]: Preparing spawn area: 100%
-[17:42:09] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
-[17:42:09] [Server thread/INFO]: Time elapsed: 1130 ms
-[17:42:09] [Server thread/INFO]: Done (20.918s)! For help, type "help"
-[17:42:09] [Server thread/INFO]: Timings Reset
-[17:42:26] [User Authenticator #1/INFO]: UUID of player Aragami1408 is 43802be5-553b-307a-8e27-97fa23be1c48
-[17:42:26] [Server thread/INFO]: Aragami1408[/2001:ee0:48d8:dc60:24b9:b52a:1320:571c%0:52189] logged in with entity id 514 at ([world]238.29999997466803, 69.01358375291962, -170.70000002533197)
-[17:43:05] [Server thread/INFO]: [Server] "HAHAHAHAHA"
-[17:43:09] [Server thread/INFO]: Aragami1408 lost connection: Disconnected
-[17:43:09] [Server thread/INFO]: Aragami1408 left the game
-[17:45:01] [User Authenticator #2/INFO]: UUID of player Aragami1408 is 43802be5-553b-307a-8e27-97fa23be1c48
-[17:45:02] [Server thread/INFO]: Aragami1408[/2001:ee0:48d8:dc60:24b9:b52a:1320:571c%0:52486] logged in with entity id 530 at ([world]244.51249998807913, 66.51391576933757, -174.49888403471007)
-[17:46:20] [Server thread/INFO]: Aragami1408 issued server command: /whitelist add Aragami1408
-[17:46:20] [Server thread/INFO]: [Aragami1408: Added Aragami1408 to the whitelist]
-[17:46:29] [Server thread/INFO]: Aragami1408 issued server command: /whitelist list
-[17:52:32] [Server thread/INFO]: Aragami1408 issued server command: /help
-[17:52:53] [Server thread/INFO]: Aragami1408 issued server command: /help 2
-[17:52:59] [Server thread/INFO]: Aragami1408 issued server command: /debug
-[17:53:05] [Server thread/INFO]: Aragami1408 issued server command: /debug start
-[17:53:05] [Server thread/INFO]: [Aragami1408: Started debug profiling]
-[17:57:15] [Server thread/INFO]: Aragami1408 issued server command: /gamemode creative
-[17:57:15] [Server thread/INFO]: [Aragami1408: Set own game mode to Creative Mode]
-[17:58:09] [Server thread/INFO]: Aragami1408 issued server command: /gamemode survival
-[17:58:09] [Server thread/INFO]: [Aragami1408: Set own game mode to Survival Mode]
-[17:58:44] [Server thread/INFO]: Aragami1408 issued server command: /gamemode creative
-[17:58:44] [Server thread/INFO]: [Aragami1408: Set own game mode to Creative Mode]
-[18:00:56] [Server thread/INFO]: Aragami1408 issued server command: /gamemode creative
-[18:01:00] [Server thread/INFO]: Aragami1408 issued server command: /gamemode survival
-[18:01:00] [Server thread/INFO]: [Aragami1408: Set own game mode to Survival Mode]
-[18:03:23] [Server thread/INFO]: Aragami1408 lost connection: Disconnected
-[18:03:23] [Server thread/INFO]: Aragami1408 left the game
-[18:19:36] [User Authenticator #3/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:19:36] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57008] logged in with entity id 1054 at ([world]256.5, 64.0, -139.5)
-[18:21:42] [Server thread/INFO]: LoneWolf has made the advancement [Stone Age]
-[18:22:10] [Server thread/INFO]: LoneWolf has made the advancement [Getting an Upgrade]
-[18:23:36] [Server thread/INFO]: LoneWolf has made the advancement [Acquire Hardware]
-[18:23:44] [Server thread/INFO]: LoneWolf has made the advancement [Isn't It Iron Pick]
-[18:24:45] [Server thread/INFO]: LoneWolf has made the advancement [Sweet Dreams]
-[18:26:31] [Async Chat Thread - #0/INFO]: <LoneWolf> t#stop
-[18:29:01] [Server thread/INFO]: [Server] are ya winning, son?
-[18:29:05] [Async Chat Thread - #1/INFO]: <LoneWolf> NO DAD
-[18:29:17] [Async Chat Thread - #1/INFO]: <LoneWolf> well yes but actually no
-[18:29:24] [Server thread/INFO]: [Server] ur vibe isn't epic
-[18:29:27] [Async Chat Thread - #1/INFO]: <LoneWolf> sad
-[18:29:30] [Server thread/INFO]: [Server] lmao yeet
-[18:29:34] [Async Chat Thread - #1/INFO]: <LoneWolf> vibe check failed
-[18:29:37] [Async Chat Thread - #1/INFO]: <LoneWolf> you joinin?
-[18:29:39] [User Authenticator #4/INFO]: UUID of player Wello6143 is 21ecd154-c21d-32ba-8b2b-f4715700c088
-[18:29:39] [Server thread/INFO]: Wello6143[/2402:800:6343:ee4c:1c2a:712:bd85:2b22%0:39268] logged in with entity id 1553 at ([world]266.4704540988502, 64.0, -134.31223818940666)
-[18:29:39] [Server thread/WARN]: Something's taking too long! 'root.tick.connection' took aprox 106.629756 ms
-[18:29:39] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 117.333943 ms
-[18:29:39] [Server thread/WARN]: Something's taking too long! 'root' took aprox 117.453385 ms
-[18:29:46] [Async Chat Thread - #1/INFO]: <LoneWolf> sup
-[18:29:50] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[18:29:50] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[18:29:56] [Async Chat Thread - #1/INFO]: <LoneWolf> sup
-[18:29:59] [Async Chat Thread - #1/INFO]: <Wello6143> sup
-[18:30:02] [Async Chat Thread - #1/INFO]: <Wello6143> discord vc?
-[18:30:13] [Async Chat Thread - #1/INFO]: <LoneWolf> done
-[18:30:39] [Async Chat Thread - #1/INFO]: <Wello6143> hey ara
-[18:31:27] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[18:31:27] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[18:34:35] [Server thread/INFO]: LoneWolf was slain by Zombie
-[18:35:34] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[18:35:34] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[18:36:17] [Server thread/INFO]: LoneWolf has made the advancement [Diamonds!]
-[18:37:02] [Async Chat Thread - #2/INFO]: <Wello6143> u gey
-[18:37:05] [Async Chat Thread - #2/INFO]: <LoneWolf> u gey
-[18:37:17] [Async Chat Thread - #2/INFO]: <Wello6143> ngu nhanh dit me may
-[18:37:21] [Async Chat Thread - #2/INFO]: <LoneWolf> DIT ME QUAI
-[18:37:22] [Server thread/INFO]: Wello6143 issued server command: /time set day
-[18:37:22] [Server thread/INFO]: [Wello6143: Set the time to 1000]
-[18:38:18] [Async Chat Thread - #2/INFO]: <LoneWolf> doi ti toi cam tai nghe
-[18:40:21] [Async Chat Thread - #3/INFO]: <Wello6143> hoe
-[18:40:26] [Async Chat Thread - #3/INFO]: <Wello6143> that hoe over there
-[18:40:30] [Async Chat Thread - #3/INFO]: <Wello6143> T H O T
-[18:40:32] [Async Chat Thread - #3/INFO]: <LoneWolf> T H O T
-[18:40:36] [Async Chat Thread - #3/INFO]: <LoneWolf> TWITCH THOT
-[18:41:47] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[18:41:47] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[18:41:47] [Server thread/WARN]: Wello6143 moved too quickly! -22.93451392352557,-57.0,8.7913731393312
-[18:41:56] [Async Chat Thread - #4/INFO]: <LoneWolf> S I M P
-[18:42:04] [Async Chat Thread - #4/INFO]: <LoneWolf> DITME LAVA
-[18:42:35] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf hack xray ha u faggot
-[18:42:35] [Server thread/INFO]: LoneWolf lost connection: hack xray ha u faggot
-[18:42:35] [Server thread/INFO]: LoneWolf left the game
-[18:42:35] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: hack xray ha u faggot]
-[18:42:35] [Server thread/WARN]: handleDisconnection() called twice
-[18:42:40] [User Authenticator #5/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:42:40] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57034] logged in with entity id 2603 at ([world]228.69999998807907, 11.0, -146.59426511815911)
-[18:43:19] [Async Chat Thread - #5/INFO]: <LoneWolf> i will be thằng lz bán than
-[18:43:27] [Server thread/INFO]: Wello6143 issued server command: /tp 220.69 150.00 -152.05
-[18:43:27] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to 220.69, 150.0, -152.05]
-[18:43:41] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf hack xray ha u faggot
-[18:43:41] [Server thread/INFO]: LoneWolf lost connection: hack xray ha u faggot
-[18:43:41] [Server thread/INFO]: LoneWolf left the game
-[18:43:41] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: hack xray ha u faggot]
-[18:43:41] [Server thread/WARN]: handleDisconnection() called twice
-[18:43:45] [User Authenticator #6/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:43:45] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57038] logged in with entity id 2754 at ([world]222.2884608137512, 4.0, -161.69999998807907)
-[18:43:49] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf hack xray ha u faggot
-[18:43:49] [Server thread/INFO]: LoneWolf lost connection: hack xray ha u faggot
-[18:43:49] [Server thread/INFO]: LoneWolf left the game
-[18:43:49] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: hack xray ha u faggot]
-[18:43:49] [Server thread/WARN]: handleDisconnection() called twice
-[18:43:54] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf hack xray ha u faggot
-[18:43:55] [User Authenticator #6/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:43:55] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57050] logged in with entity id 2772 at ([world]222.2884608137512, 4.0, -161.69999998807907)
-[18:43:57] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf hack xray ha u faggot
-[18:43:57] [Server thread/INFO]: LoneWolf lost connection: hack xray ha u faggot
-[18:43:57] [Server thread/INFO]: LoneWolf left the game
-[18:43:57] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: hack xray ha u faggot]
-[18:43:57] [Server thread/WARN]: handleDisconnection() called twice
-[18:44:05] [User Authenticator #6/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:44:05] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57058] logged in with entity id 2783 at ([world]222.2884608137512, 4.0, -161.69999998807907)
-[18:44:13] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf xaoloz may
-[18:44:13] [Server thread/INFO]: LoneWolf lost connection: xaoloz may
-[18:44:13] [Server thread/INFO]: LoneWolf left the game
-[18:44:13] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: xaoloz may]
-[18:44:13] [Server thread/WARN]: handleDisconnection() called twice
-[18:44:15] [User Authenticator #6/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:44:15] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57064] logged in with entity id 2790 at ([world]222.69999998807907, 4.0, -161.84911984368912)
-[18:44:44] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf 2 190.00 -137.99
-[18:44:44] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to 2.5, 190.0, -137.99]
-[18:44:47] [Server thread/INFO]: LoneWolf fell from a high place
-[18:45:08] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[18:45:08] [Server thread/INFO]: Wello6143 fell out of the world
-[18:45:08] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[18:45:20] [Server thread/INFO]: Wello6143 issued server command: /kill LoneWolf
-[18:45:20] [Server thread/INFO]: LoneWolf fell out of the world
-[18:45:20] [Server thread/INFO]: [Wello6143: Killed LoneWolf]
-[18:46:39] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[18:46:39] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[18:46:39] [Server thread/WARN]: Wello6143 moved too quickly! 119.80544575517678,8.0,190.90145107085877
-[18:47:15] [Server thread/INFO]: Wello6143 issued server command: /kill
-[18:47:17] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[18:47:17] [Server thread/INFO]: Wello6143 fell out of the world
-[18:47:17] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[18:47:35] [Server thread/INFO]: Wello6143 issued server command: /time set day
-[18:47:35] [Server thread/INFO]: [Wello6143: Set the time to 1000]
-[18:48:31] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf ket noi lan nua = pay do
-[18:48:31] [Server thread/INFO]: LoneWolf lost connection: ket noi lan nua = pay do
-[18:48:31] [Server thread/INFO]: LoneWolf left the game
-[18:48:31] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: ket noi lan nua = pay do]
-[18:48:31] [Server thread/WARN]: handleDisconnection() called twice
-[18:48:34] [User Authenticator #7/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:48:34] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57074] logged in with entity id 4070 at ([world]454.6929049541369, 73.0, 356.79161639452184)
-[18:54:23] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf Bullet rain + Auto Aim + Auto combat + X ray vision cheating detected
-[18:54:23] [Server thread/INFO]: LoneWolf lost connection: Bullet rain + Auto Aim + Auto combat + X ray vision cheating detected
-[18:54:23] [Server thread/INFO]: LoneWolf left the game
-[18:54:23] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: Bullet rain + Auto Aim + Auto combat + X ray vision cheating detected]
-[18:54:23] [Server thread/WARN]: handleDisconnection() called twice
-[18:54:26] [User Authenticator #8/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[18:54:26] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57078] logged in with entity id 6209 at ([world]659.7545752278793, 83.0, 1208.4569449319788)
-[18:54:26] [Server thread/WARN]: Something's taking too long! 'root.tick' took aprox 128.638096 ms
-[18:54:26] [Server thread/WARN]: Something's taking too long! 'root' took aprox 128.780733 ms
-[18:58:04] [Server thread/INFO]: Wello6143 has made the advancement [Take Aim]
-[18:58:56] [Server thread/INFO]: Wello6143 was shot by Skeleton
-[19:00:11] [Server thread/INFO]: Wello6143 issued server command: /time set day
-[19:00:11] [Server thread/INFO]: [Wello6143: Set the time to 1000]
-[19:00:18] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[19:00:18] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[19:00:33] [Server thread/INFO]: LoneWolf has made the advancement [Suit Up]
-[19:01:41] [Server thread/INFO]: Wello6143 has made the advancement [Hot Stuff]
-[19:01:53] [Server thread/INFO]: Wello6143 has made the advancement [What a Deal!]
-[19:02:14] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:02:14] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:02:53] [Server thread/INFO]: LoneWolf was slain by Iron Golem
-[19:02:57] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:02:57] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:03:15] [Server thread/INFO]: Wello6143 issued server command: /kick LoneWolf may van cam do kim cuong la sao
-[19:03:15] [Server thread/INFO]: LoneWolf lost connection: may van cam do kim cuong la sao
-[19:03:15] [Server thread/INFO]: LoneWolf left the game
-[19:03:15] [Server thread/INFO]: [Wello6143: Kicked LoneWolf: may van cam do kim cuong la sao]
-[19:03:15] [Server thread/WARN]: handleDisconnection() called twice
-[19:03:18] [User Authenticator #9/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[19:03:18] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57086] logged in with entity id 9699 at ([world]1289.030755828705, 64.0, 2309.1161449792153)
-[19:03:19] [Server thread/INFO]: Wello6143 issued server command: /weather clear
-[19:03:19] [Server thread/INFO]: [Wello6143: Set the weather to clear]
-[19:03:35] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:03:35] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:04:16] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:04:16] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:04:21] [Server thread/INFO]: Wello6143 burned to death
-[19:04:27] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[19:04:27] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[19:04:27] [Server thread/WARN]: Wello6143 moved too quickly! 982.0146207991713,-4.580000213113024,2553.9473629461354
-[19:04:32] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:04:32] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:04:35] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:04:35] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:04:38] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:04:38] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:04:50] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:04:50] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:04:56] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:04:56] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:05:18] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:05:18] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:05:28] [Server thread/INFO]: LoneWolf was slain by Wello6143
-[19:05:43] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:05:43] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:06:16] [Server thread/INFO]: Wello6143 was slain by LoneWolf
-[19:06:20] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[19:06:20] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[19:06:20] [Server thread/WARN]: Wello6143 moved too quickly! 992.3113315817081,-3.97557611178631,2531.504883585756
-[19:06:27] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:06:27] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:07:07] [Async Chat Thread - #6/INFO]: <Wello6143> dm nau com cai
-[19:07:08] [Server thread/INFO]: Wello6143 lost connection: Disconnected
-[19:07:08] [Server thread/INFO]: Wello6143 left the game
-[19:07:09] [Async Chat Thread - #6/INFO]: <LoneWolf> F
-[19:10:01] [User Authenticator #10/INFO]: UUID of player Wello6143 is 21ecd154-c21d-32ba-8b2b-f4715700c088
-[19:10:02] [Server thread/INFO]: Wello6143[/2402:800:6343:ee4c:1c2a:712:bd85:2b22%0:39572] logged in with entity id 11241 at ([world]1248.195467170037, 64.0, 2351.9111074928874)
-[19:10:20] [Server thread/INFO]: Wello6143 issued server command: /tp Wello6143 LoneWolf
-[19:10:20] [Server thread/INFO]: [Wello6143: Teleported Wello6143 to LoneWolf]
-[19:10:20] [Server thread/WARN]: Wello6143 moved too quickly! 332.68345955263885,14.0,160.63675404564356
-[19:10:52] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:10:52] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:11:32] [Server thread/INFO]: Wello6143 issued server command: /tp LoneWolf Wello6143
-[19:11:32] [Server thread/INFO]: [Wello6143: Teleported LoneWolf to Wello6143]
-[19:11:44] [Server thread/INFO]: Wello6143 issued server command: /kill
-[19:11:47] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[19:11:47] [Server thread/INFO]: Wello6143 fell out of the world
-[19:11:47] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[19:12:23] [Async Chat Thread - #7/INFO]: <Wello6143> nha nguoi di dau day?
-[19:12:28] [Async Chat Thread - #7/INFO]: <LoneWolf> di den tan cung the gioi
-[19:13:03] [Server thread/INFO]: Wello6143 issued server command: /weather
-[19:13:07] [Server thread/INFO]: Wello6143 issued server command: /weather thunder
-[19:13:07] [Server thread/INFO]: [Wello6143: Set the weather to rain & thunder]
-[19:13:10] [Server thread/INFO]: Wello6143 issued server command: /time set day
-[19:13:10] [Server thread/INFO]: [Wello6143: Set the time to 1000]
-[19:13:24] [Server thread/INFO]: LoneWolf lost connection: Disconnected
-[19:13:24] [Server thread/INFO]: LoneWolf left the game
-[19:13:26] [Server thread/INFO]: Wello6143 issued server command: /kill
-[19:13:30] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[19:13:30] [Server thread/INFO]: Wello6143 fell out of the world
-[19:13:30] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[19:16:06] [User Authenticator #11/INFO]: UUID of player LoneWolf is ed0e1cc7-8787-3f8e-82c6-b79d32f937c8
-[19:16:06] [Server thread/INFO]: LoneWolf[/2001:ee0:4141:3272:4d1f:4ab6:de0e:85fc%0:57126] logged in with entity id 12264 at ([world]1907.864833510744, 70.0, 2593.581610424963)
-[19:16:32] [Server thread/WARN]: 150ba9ea-4684-4c54-9958-752470d64377 (vehicle of LoneWolf) moved wrongly!
-[19:21:23] [Server thread/INFO]: Wello6143 hit the ground too hard
-[19:22:14] [Server thread/INFO]: Wello6143 issued server command: /kill
-[19:22:16] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[19:22:16] [Server thread/INFO]: Wello6143 fell out of the world
-[19:22:16] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[19:23:27] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[19:23:27] [Server thread/INFO]: Wello6143 fell out of the world
-[19:23:27] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[19:26:23] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[19:26:23] [Server thread/INFO]: Wello6143 fell out of the world
-[19:26:23] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[19:29:47] [Server thread/INFO]: Wello6143 issued server command: /difficulty normal
-[19:32:15] [Server thread/INFO]: Wello6143 has made the advancement [Not Today, Thank You]
-[19:39:54] [Server thread/INFO]: Wello6143 burned to death
-[19:47:20] [Server thread/INFO]: LoneWolf has made the advancement [Monster Hunter]
-[19:48:50] [Server thread/INFO]: [Server] Ban dang choi tren server MineFC cua ken0kac, chuc ban choi game vui ve
-[19:52:13] [Server thread/INFO]: LoneWolf lost connection: Disconnected
-[19:52:13] [Server thread/INFO]: LoneWolf left the game
-[19:58:33] [Server thread/INFO]: Wello6143 issued server command: /kill
-[19:58:36] [Server thread/INFO]: Wello6143 issued server command: /kill Wello6143
-[19:58:36] [Server thread/INFO]: Wello6143 fell out of the world
-[19:58:36] [Server thread/INFO]: [Wello6143: Killed Wello6143]
-[20:03:55] [Server thread/INFO]: Wello6143 lost connection: Disconnected
-[20:03:55] [Server thread/INFO]: Wello6143 left the game
-[20:04:08] [Server thread/INFO]: Stopping server
-[20:04:08] [Server thread/INFO]: Saving players
-[20:04:08] [Server thread/INFO]: Saving worlds
-[20:04:08] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:04:08] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:04:08] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[20:04:08] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:27:10] [Server thread/INFO]: Starting minecraft server version 1.14.4
+[15:27:10] [Server thread/INFO]: Loading properties
+[15:27:10] [Server thread/INFO]: This server is running Paper version git-Paper-243 (MC: 1.14.4) (Implementing API version 1.14.4-R0.1-SNAPSHOT)
+[15:27:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:27:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:27:10] [Server thread/INFO]: Debug logging is disabled
+[15:27:10] [Server thread/INFO]: Default game type: SURVIVAL
+[15:27:10] [Server thread/INFO]: Generating keypair
+[15:27:10] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:27:10] [Server thread/INFO]: Using epoll channel type
+[15:27:14] [Server thread/INFO]: [TAB] Loading TAB v2.8.3
+[15:27:14] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:27:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:27:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:27:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:27:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:27:14] [Server thread/INFO]: Preparing level "world"
+[15:27:14] [Server thread/INFO]: Reloading ResourceManager: Default, bukkit
+[15:27:25] [Server thread/INFO]: Loaded 6 recipes
+[15:27:25] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:27:25] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:27:25] [Server thread/INFO]: Mob Spawn Range: 8
+[15:27:25] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:27:25] [Server thread/INFO]: Max TNT Explosions: 100
+[15:27:25] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:27:25] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:27:25] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:27:25] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:27:25] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:27:25] [Server thread/INFO]: View Distance: 10
+[15:27:25] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:27:25] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:27:25] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:27:25] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:27:25] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:27:25] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:27:26] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:27:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:27:26] [Server thread/INFO]: Mob Spawn Range: 8
+[15:27:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:27:26] [Server thread/INFO]: Max TNT Explosions: 100
+[15:27:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:27:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:27:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:27:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:27:26] [Server thread/INFO]: View Distance: 10
+[15:27:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:27:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:27:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:27:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:27:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:27:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:27:26] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:27:26] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:27:26] [Server thread/INFO]: Mob Spawn Range: 8
+[15:27:26] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313Ocean: 14357621 Shipwreck: 165745295 Slime: 987234911
+[15:27:26] [Server thread/INFO]: Max TNT Explosions: 100
+[15:27:26] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:27:26] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:27:26] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true
+[15:27:26] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:27:26] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1
+[15:27:26] [Server thread/INFO]: View Distance: 10
+[15:27:26] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:27:26] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:27:26] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:27:26] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[15:27:26] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:27:26] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:27:26] [Server thread/INFO]: Preparing start region for dimension 'world'/minecraft:overworld
+[15:27:26] [Server thread/INFO]: Preparing spawn area: 0%
+[15:27:26] [Server thread/INFO]: Preparing spawn area: 6%
+[15:27:27] [Server thread/INFO]: Preparing spawn area: 40%
+[15:27:27] [Server thread/INFO]: Preparing spawn area: 100%
+[15:27:27] [Server thread/INFO]: Loaded 441 spawn chunks for world world
+[15:27:27] [Server thread/INFO]: Time elapsed: 1586 ms
+[15:27:27] [Server thread/INFO]: Preparing start region for dimension 'world_nether'/minecraft:the_nether
+[15:27:27] [Server thread/INFO]: Preparing spawn area: 0%
+[15:27:28] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:27:28] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:27:29] [Server-Worker-2/INFO]: Preparing spawn area: 100%
+[15:27:29] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:27:30] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:27:30] [Server thread/INFO]: Loaded 441 spawn chunks for world world_nether
+[15:27:30] [Server thread/INFO]: Time elapsed: 2863 ms
+[15:27:30] [Server thread/INFO]: Preparing start region for dimension 'world_the_end'/minecraft:the_end
+[15:27:30] [Server thread/INFO]: Preparing spawn area: 0%
+[15:27:31] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:27:31] [Server-Worker-1/INFO]: Preparing spawn area: 100%
+[15:27:31] [Server thread/INFO]: Loaded 441 spawn chunks for world world_the_end
+[15:27:31] [Server thread/INFO]: Time elapsed: 1070 ms
+[15:27:31] [Server thread/INFO]: [TAB] Enabling TAB v2.8.3
+[15:27:31] [Server thread/INFO]: [TAB] Server version: 1.14.4 (v1_14_R1)
+[15:27:31] [Server thread/INFO]: [TAB] Enabled in 97ms
+[15:27:31] [Server thread/INFO]: Done (17.239s)! For help, type "help"
+[15:27:31] [Server thread/INFO]: Timings Reset
+[15:27:36] [User Authenticator #1/INFO]: UUID of player Wello6143 is 21ecd154-c21d-32ba-8b2b-f4715700c088
+[15:27:36] [Server thread/INFO]: Wello6143[/2402:800:6343:ee4c:d864:f544:7e27:6a87%0:56690] logged in with entity id 385 at ([world]247.9267568800212, 69.95154721809982, -161.65393282143256)
+[15:28:16] [Server thread/INFO]: Wello6143 issued server command: /gamemode creative
+[15:28:16] [Server thread/INFO]: [Wello6143: Set own game mode to Creative Mode]
+[15:29:50] [Server thread/INFO]: Wello6143 issued server command: /gamemode survival
+[15:29:50] [Server thread/INFO]: [Wello6143: Set own game mode to Survival Mode]
+[15:31:22] [Server thread/INFO]: Stopping server
+[15:31:22] [Server thread/INFO]: [TAB] Disabling TAB v2.8.3
+[15:31:22] [Server thread/INFO]: [TAB] Disabled in 2ms
+[15:31:22] [Server thread/INFO]: Saving players
+[15:31:22] [Server thread/INFO]: Wello6143 lost connection: Server closed
+[15:31:22] [Server thread/INFO]: Wello6143 left the game
+[15:31:22] [Server thread/INFO]: Saving worlds
+[15:31:22] [Server thread/INFO]: Saving chunks for level 'world'/minecraft:overworld
+[15:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:31:22] [Server thread/INFO]: Saving chunks for level 'world_nether'/minecraft:the_nether
+[15:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:31:22] [Server thread/INFO]: Saving chunks for level 'world_the_end'/minecraft:the_end
+[15:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:31:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
