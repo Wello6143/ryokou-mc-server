@@ -3,3 +3,4 @@ world_nether/
 world_the_end/
 nohup.out
 logs/
+plugins/*.jar
