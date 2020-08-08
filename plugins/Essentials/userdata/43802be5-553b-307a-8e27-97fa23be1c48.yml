@@ -1,0 +1,22 @@
+lastAccountName: Aragami1408
+timestamps:
+  login: 1596426408868
+  logout: 1596426649736
+  lastteleport: 1596426351301
+  kits:
+    starterpack: 1596426265171
+ipAddress: 127.0.0.1
+lastlocation:
+  world: world
+  x: 364.4325680748984
+  y: 77.0
+  z: 12.112186335990163
+  yaw: 28.647247
+  pitch: 3.5999138
+logoutlocation:
+  world: world
+  x: 312.37795741453385
+  y: 71.0
+  z: 113.74837675942403
+  yaw: -19.350887
+  pitch: -27.149982

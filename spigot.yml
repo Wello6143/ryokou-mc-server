@@ -32,15 +32,16 @@ settings:
     attackDamage:
       max: 2048.0
 messages:
-  whitelist: You are not dedicated person!
+  whitelist: You are not a dedicated person!
   unknown-command: I dunno what is that. Type "/help" for help.
-  server-full: There is no enough room for you!
-  outdated-client: Your client is obsolete! Upgrade to {0} please.
-  outdated-server: Your client gone too far! Back to {0}
+  server-full: The room is full... Please have fun in another one...
+  outdated-client: Your client's version is obsolete! Upgrade to {0} please.
+  outdated-server: Your client's version gone too far! Back to {0}
   restart: Server is rebooting...
 commands:
   spam-exclusions:
   - /skill
+  - /xp
   silent-commandblock-console: false
   replace-commands:
   - setblock
